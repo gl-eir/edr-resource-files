@@ -1,0 +1,11 @@
+eagle:
+  edr:
+    serverPort: 8004     # // port on which it will listen
+
+info-mapper:
+  ##  enable: true            #  // enable= true if we want msisdn to be mapped using imsie, if missing
+  enable: true
+  receiverIp: 127.0.0.1    # // ip of self to receive response from info mapper
+  receiverPort: 8005       # // port of self to receive response from info mapper
+  serverIp: 127.0.0.1      # // ip of infomapper module
+  serverPort: 9090         # // port of infomapper module
